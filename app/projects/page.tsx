@@ -1,39 +1,29 @@
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "../../components/ProjectCard";
 
 export default function ProjectsPage() {
   return (
-    <section style={{ maxWidth: "1100px", margin: "0 auto", padding: "40px 20px" }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: "30px" }}>Mijn Projecten</h1>
+    <div style={{ padding: "40px" }}>
 
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-          gap: "25px",
+          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gap: "35px",
         }}
       >
         <ProjectCard
-          title="Portfolio Website"
-          description="Mijn persoonlijke portfolio gebouwd met Next.js en React."
-          tech={["Next.js", "React", "CSS"]}
-          github="https://github.com/jouw-naam/portfolio"
-          demo="https://mijn-portfolio.vercel.app"
-        />
-
-        <ProjectCard
           title="Todo App"
-          description="Een simpele maar krachtige todo app met local storage."
-          tech={["React", "TypeScript"]}
-          github="https://github.com/jouw-naam/todo-app"
+          description="Een simpele maar strakke todo-app met dark mode."
+          tech={["React"]}
+          github="https://github.com/EmanuelG07/kaartenspelM7.git"
         />
 
         <ProjectCard
-          title="API Project"
-          description="Een API project dat data van een externe bron haalt en toont."
-          tech={["Node.js", "Express", "MongoDB"]}
-          github="https://github.com/jouw-naam/api-project"
+          title="Kaarten spel"
+          description="Een project waarin ik een externe API gebruik om data op te halen en weer te geven."
+          tech={["Node.js"]}
         />
       </div>
-    </section>
+    </div>
   );
 }

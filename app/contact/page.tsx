@@ -1,8 +1,14 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function ContactPage() {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>Neem contact met me op via e-mail: <strong>emanuelghiorghita2@gmail.com</strong></p>
-    </div>
-  );
+    <section style={{ minHeight: "vh", padding: "48px 20px", display: "flex", justifyContent: "center" }}>
+      <div style={{ width: "720px" }}>
+        <ContactForm/>
+        <div style={{ marginTop: 18, color: "rgba(234,242,255,0.7)", fontSize: 14 }}>
+          Of stuur direct een mail naar <strong>emanuelghiorghita2@gmail.com</strong>
+        </div>
+      </div>
+    </section>
+  );  
 }
