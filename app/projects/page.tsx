@@ -12,14 +12,26 @@ export default function ProjectsPage() {
         }}
       >
         <ProjectCard
-          title="Todo App"
-          description="Een simpele maar strakke todo-app met dark mode."
+          title="Kaarten spel"
+          description="Een leuke kaarten spel die echt werkt."
           tech={["React"]}
           github="https://github.com/EmanuelG07/kaartenspelM7.git"
         />
 
         <ProjectCard
-          title="Kaarten spel"
+          title="..."
+          description="Een project waarin ik een externe API gebruik om data op te halen en weer te geven."
+          tech={["Node.js"]}
+        />
+
+        <ProjectCard
+          title="..."
+          description="Een project waarin ik een externe API gebruik om data op te halen en weer te geven."
+          tech={["Node.js"]}
+        />
+
+        <ProjectCard
+          title="..."
           description="Een project waarin ik een externe API gebruik om data op te halen en weer te geven."
           tech={["Node.js"]}
         />

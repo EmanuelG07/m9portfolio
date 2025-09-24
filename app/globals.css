@@ -185,9 +185,17 @@ header nav {
 .tw-cursor { display:inline-block; margin-left:6px; animation: tw-blink 1s steps(2,start) infinite; }
 @keyframes tw-blink { to { opacity: 0; } }
 
+.typewriter-wrapper {
+  display: inline-block;
+  min-height: 2.5em; 
+}
+
 .contact-form { max-width: 720px; margin: 0 auto; }
 
 @media (max-width: 540px) {
   .cta-row { justify-content: center; }
   .h1 { font-size: 1.8rem; }
 }
+ .h1-stars{
+  height: 8rem;
+ }

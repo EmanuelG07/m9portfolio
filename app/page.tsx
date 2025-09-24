@@ -18,16 +18,18 @@ export default function HomePage() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-          <h1 className="h1">
+          <h1 className="h1 h1-stars">
             Hoi, ik ben <span className="name h1 name" style={{ color: "var(--accent)" }}>Emanuel</span>{" "}
             <span style={{ display: "inline-block", marginLeft: 8 }}>
               <Typewriter words={["Software Engineer", "App Designer", "Front-End Developer"]} />
             </span>
-          </h1>
+          </h1> 
 
           <p className="lead">
             Ik bouw moderne, snelle webapps met React en Next.js. Op dit moment studeer ik aan het
-            Mediacollege Amsterdam en oefen ik met zowel frontend als backend projecten.
+            Mediacollege Amsterdam en oefen ik met zowel frontend als backend projecten. 
+            Op de "projecten-page" kun je een paar van mijn beste projecten zien. 
+            Neem vooral een kijkje!
           </p>
 
           <div className="cta-row">
