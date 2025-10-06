@@ -26,14 +26,7 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="stars" aria-hidden>
-          <div className="star" style={{ top: "20%", left: "80%" }} />
-          <div className="star" style={{ top: "40%", left: "60%" }} />
-          <div className="star" style={{ top: "70%", left: "90%" }} />
-          <div className="star" style={{ top: "10%", left: "30%" }} />
-          <div className="star" style={{ top: "50%", left: "10%" }} />
-        </div>
-
+      
         <Navbar />
         <main style={{ maxWidth: 1100, margin: "36px auto", padding: "0 18px" }}>
           {children}

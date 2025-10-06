@@ -13,7 +13,6 @@ export default function ContactForm() {
 
   const validate = () => {
     if (!name.trim() || !email.trim() || !message.trim()) return false;
-    // simpele email check
     return /\S+@\S+\.\S+/.test(email);
   };
 
@@ -62,8 +61,6 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="contact-form" aria-label="Contactformulier">
       <div className="glass-head">
-        <h2>Stuur me een bericht</h2>
-        <p>Heb je een opdracht of wil je samenwerken? Laat het weten 👇</p>
       </div>
 
       <label className="input-wrap">
@@ -167,14 +164,13 @@ export default function ContactForm() {
         }
 
         .btn-neon {
-          background: linear-gradient(90deg, rgba(11,110,253,0.95), rgba(72,0,255,0.85));
+          background:#008b8b;
           color: white;
           border: none;
           padding: 12px 16px;
           border-radius: 10px;
           font-weight: 700;
           cursor: pointer;
-          box-shadow: 0 8px 36px rgba(11,110,253,0.18), 0 2px 8px rgba(72,0,255,0.12);
           transition: transform .12s ease, box-shadow .12s ease;
         }
         .btn-neon:active { transform: translateY(1px) scale(.995); }
