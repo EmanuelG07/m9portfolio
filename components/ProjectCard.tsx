@@ -31,7 +31,7 @@ export default function ProjectCard({ title, description, tech, github }: Projec
               padding: "6px 12px",
               borderRadius: "20px",
               background: "rgba(0,139,139,0.2)",
-              color: "#00FFFF",
+              color: "#008B8B",
               border: "1px solid rgba(0,139,139,0.5)",
             }}
           >

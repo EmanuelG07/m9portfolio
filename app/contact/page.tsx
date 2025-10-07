@@ -47,7 +47,7 @@ export default function ContactPage() {
           }}
         >
           <div>
-            <Mail size={24} color="#00FFFF" />
+            <Mail size={24} color="#008B8B" />
             <p style={{ marginTop: 8, color: "rgba(255,255,255,0.8)" }}>
               <strong>Email</strong><br />
               webdevemanuel@gmail.com
@@ -83,7 +83,7 @@ export default function ContactPage() {
           </div>
 
           <div>
-            <MapPin size={24} color="#00FFFF" />
+            <MapPin size={24} color="#008B8B" />
             <p style={{ marginTop: 8, color: "rgba(255,255,255,0.8)" }}>
               <strong>Locatie</strong><br />
               Amsterdam, Nederland

@@ -104,26 +104,24 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 style={{ marginTop: 0 }}>Een paar projecten</h2>
+        <h2 style={{ marginTop: 0 }}>Wat doe ik?</h2>
 
         <div className="grid-2">
           <div className="card">
-            <h3 style={{ marginTop: 0 }}>Portfolio Website</h3>
+            <h3 style={{ marginTop: 0 }}>Stylen</h3>
             <p className="lead">
-              Mijn persoonlijke site gebouwd met Next.js, hier vind je al mijn
-              projecten en contactinfo.
+              Mijn doel is om uw website een clean look te geven naar al uw behoeftes!
             </p>
             <div style={{ marginTop: 12, display: "flex", gap: 8 }}>
-              <span className="badge">Next.js</span>
-              <span className="badge">React</span>
+              <span className="badge">HTML</span>
+              <span className="badge">CSS</span>
             </div>
           </div>
 
           <div className="card">
-            <h3 style={{ marginTop: 0 }}>To-Do App</h3>
+            <h3 style={{ marginTop: 0 }}>Interactie & Functionaliteit</h3>
             <p className="lead">
-              Een nette todo-app met local storage en auth-stub voor oefening in
-              state management en UX.
+              Ik voeg leven toe aan websites door interactieve functies te bouwen met JavaScript en React.
             </p>
             <div style={{ marginTop: 12, display: "flex", gap: 8 }}>
               <span className="badge">React</span>
@@ -201,5 +199,6 @@ function Skills() {
         />
       </div>
     </div>
+    
   );
 }
